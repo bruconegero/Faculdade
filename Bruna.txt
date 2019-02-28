@@ -1,0 +1,25 @@
+PRIMEIRO COMANDO ANTES DE MEXER É
+#Atualiza
+
+git pull
+
+DEPOIS DE ALTERAR OS ARQUIVOS
+#Adiciona os arquivos
+
+git add .
+
+
+DEPOIS DE ADICIONAR OS ARQUIVOS, ENVIE A MENSAGEM
+#Guarda local - Mensagem
+
+git commit -m "SUA MENSAGEM AQUI DENTRO"
+
+DEPOIS DE DAR COMMIT AGORA ENVIAR PARA O SERVIDOR
+#Enviar para o servidor
+
+git push -u origin master 
+
+CASO NÃO FOR O PUSH
+#Forçando o envio
+
+git push -u origin master --force
