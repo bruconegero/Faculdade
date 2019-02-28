@@ -16,8 +16,8 @@ public class EmpresaDAOImpl implements EmpresaDAO{
 	}
 	
 	@Override
-	public void cadastrar(Empresa emrpesa) {
-		em.persist(emrpesa);
+	public void cadastrar(Empresa empresa) {
+		em.persist(empresa);
 	}
 
 	@Override
